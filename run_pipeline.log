@@ -1,0 +1,61 @@
+﻿============================================================
+CSE-CIC-IDS2018 Based Intelligent Intrusion Detection System
+============================================================
+Found 1 CSV file(s)
+
+============================================================
+Processing Dataset: 02-14-2018
+File: D:\02-14-2018.csv\pallavi\intrusion_detection_project\data\raw\02-14-2018.csv
+============================================================
+Raw dataset shape: (1048575, 80)
+Duplicates removed: 373760
+Processed dataset shape: (674815, 80)
+Features after dropping constants: 68
+Data validation: PASSED
+Class distribution: {np.int64(0): np.int64(580713), np.int64(1): np.int64(94102)}
+Imbalance ratio: 6.1711
+Class distribution plot saved: D:\02-14-2018.csv\pallavi\intrusion_detection_project\results\plots\02-14-2018_class_distribution.png
+Train set: (539852, 68), Test set: (134963, 68)
+Selected 30 features
+
+--- Training Decision Tree ---
+  Accuracy:  1.0000
+  Precision: 0.9999
+  Recall:    0.9999
+  F1:        0.9999
+  G-mean:    1.0000
+  ROC-AUC:   1.0000
+  FNR:       0.0001
+  Time:      1.98s
+
+--- Training Random Forest ---
+  Accuracy:  1.0000
+  Precision: 0.9999
+  Recall:    1.0000
+  F1:        1.0000
+  G-mean:    1.0000
+  ROC-AUC:   1.0000
+  FNR:       0.0000
+  Time:      37.04s
+
+
+--- Training Logistic Regression ---
+ Accuracy:  0.9998
+  Precision: 0.9994
+  Recall:    0.9993
+  F1:        0.9993
+  G-mean:    0.9996
+  ROC-AUC:   1.0000
+  FNR:       0.0007
+  Time:      13.97s
+
+--- Training Naive Bayes ---
+  Accuracy:  0.9994
+  Precision: 1.0000
+  Recall:    0.9960
+  F1:        0.9980
+  G-mean:    0.9980
+  ROC-AUC:   0.9982
+  FNR:       0.0040
+  Time:      0.90s
+  
